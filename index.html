@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morfando</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+
+  </head>
+
+  <body>
+    <header>
+      <h1>Bienvenido a Morfando</h1>
+      <span id="bienvenido-nombre"></span><span id="bienvenido-apellido"></span>
+    </header>
+    <main>
+      <div id="seleccion-menu">
+        <div id="menu1" class="listado-comidas">
+          <h2>Menu 1 - $ 2000</h2>
+          <ul>
+            <li>Entrada: Arroyado primaver</li>
+            <li>Plato Ppal: Milanga a caballo</li>
+            <li>Postre: flan con dulce de leche</li>
+          </ul>
+        </div>
+        <div id="menu2" class="listado-comidas">
+          <h2>Menu 2 - $1500</h2>
+          <ul>
+            <li>Entrada: ensalada mixta</li>
+            <li>Plato Ppal: Ravioles con Tuco</li>
+            <li>Postre: ensalada de fruta </li>
+          </ul>
+        </div>
+        <div id="menu3" class="listado-comidas">
+          <h2>Menu 3 - $1000</h2>
+          <ul>
+            <li>Vianda: Chori de Cancha y una coca</li>
+          </ul>
+        </div>
+        <form>
+          <h3>Selecciona que queres Morfar</h3>
+          <select name="menu" id="menu-selection">
+            <option value="1">
+              Menu 1
+            </option>
+            <option value="2">
+              Menu 2
+            </option>
+            <option value="3">
+              Menu 3
+            </option>
+          </select>
+          <h3>Cantidad de dias que comes lo mismo</h3>
+          <input type="number" id="num-dias">
+          <br>
+          <button type="button" onclick="confirmarPedido()">Confirmar</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <h3>Desarrollado por Fran</h3>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

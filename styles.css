@@ -1,0 +1,31 @@
+header{
+    background-color: yellowgreen;
+    height: 80px;
+    width: 100%;
+
+}
+main{
+    background-color: transparent;
+    height: 800px;
+    width: 100%;
+    
+}
+footer{
+    background-color: green;
+    height: 80px;
+    width: 100%;
+}
+.listado-comidas{
+    border: 1px solid black;
+    margin-right: 10px;
+    display:inline-block;
+    padding: 8px;
+
+}
+.listado-comidas:first-of-type{
+    margin-top: 20px;
+    
+}
+h1{
+    display:inline-block;
+}
